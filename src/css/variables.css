@@ -1,0 +1,5 @@
+:root {
+    --cor-de-fundo: hsl(30, 54%, 90%);
+    --cor-de-fundo-caixa: hsl(330, 100%, 98%);
+    --cor-texto-destaque: hsl(14, 45%, 36%);
+}
