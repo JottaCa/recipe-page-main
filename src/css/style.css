@@ -12,11 +12,11 @@ body {
 }
 
 .recipe {
-    background-color: #fff;
+    background-color: var(--cor-de-fundo-recipe);
     max-width: 733px;
-    padding: 38px;
-    margin-top: 125px;
-    border-radius: 20px;
+    padding: 38px 38px 30px;
+    margin: 125px 0;
+    border-radius: 15px;
     
 }
 
@@ -36,6 +36,10 @@ body {
     margin-bottom: 20px;
 }
 
+.recipe p:first-child {
+    background-color: red;
+}
+
 .recipe .preparation-time {
     background-color: var(--cor-de-fundo-caixa);
     padding: 25px;
@@ -49,7 +53,7 @@ body {
 }
 
 .recipe .preparation-time ul {
-    margin-left: 34px;
+    margin-left: 32px;
 }
 
 .recipe .preparation-time ul li {
@@ -79,24 +83,36 @@ body {
 }
 
 .recipe ol li {
-    line-height: 21px;
+    line-height: 22px;
 }
 
 .recipe .table-nutrition {
     width: 100%;
-    border: none;
-    margin-top: 10px;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.recipe tr {
+    border-left-color: var(--cor-de-fundo-recipe);
+    border-right-color: var(--cor-de-fundo-recipe);
+  }
+
+.recipe tr:first-child {
+    border-top-color: var(--cor-de-fundo-recipe);
+}
+  
+.recipe tr:last-child {
+    border-bottom-color: var(--cor-de-fundo-recipe);
 }
 
 .recipe .table-nutrition tr th {
-    height: 47px;
     text-align: start;
-    padding-left: 27px;
-    width: 330px;
+    padding: 13px 0  13px 27px;
+    width: 334px;
+    font-weight: 400;
 }
 
-.recipe .table-nutrition tr th,
 .recipe .table-nutrition tr td {
-    border: none;
-    border-bottom: 1px solid #484848;
+    font-weight: 700;
+    color: var(--cor-texto-destaque);
 }

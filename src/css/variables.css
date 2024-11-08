@@ -1,6 +1,8 @@
 :root {
     --cor-de-fundo: hsl(30, 54%, 90%);
+    --cor-de-fundo-recipe: hsl(0, 0%, 100%);
     --cor-de-fundo-caixa: hsl(330, 100%, 98%);
     --cor-texto-destaque: hsl(14, 45%, 36%);
     --cor-de-texto-caixa: hsl(332, 51%, 32%);
+    --cor-linha-tabela: hsl(30, 18%, 87%);
 }
