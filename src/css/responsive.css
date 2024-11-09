@@ -1,0 +1,56 @@
+@media (max-width: 425px) {
+    .recipe {
+        margin: 0;
+        max-width: 375px;
+    }
+    
+    .recipe .recipe-image {
+        padding: 0;
+        margin-bottom: 37px;
+    }
+
+    .recipe .recipe-image img {
+        border-radius: 0;
+    }
+
+    .recipe .recipe-content {
+        padding: 0 32px 30px;
+    }
+
+    .recipe .recipe-content .title {
+        letter-spacing: .1px;
+        line-height: 35px;
+        margin-bottom: 23px;
+    }
+
+    .recipe .recipe-content .preparation-time h3 {
+        margin-bottom: 19px;
+    }
+    
+    .recipe .recipe-content h2 {
+        margin-top: 13px;
+    }
+
+    .recipe .recipe-content ul li {
+        line-height: 21px;
+    }
+
+    .recipe .recipe-content ol li {
+        line-height: 23px;
+    }
+
+    .recipe .recipe-content .nutrition-description {
+        line-height: 25px;
+    }
+
+    .recipe .table-nutrition {
+        margin-top: 11px;
+    }
+
+    .recipe .recipe-content .table-nutrition tr th {
+        text-align: start;
+        padding: 13px 0  13px 27px;
+        width: 163px;
+        font-weight: 400;
+    }
+}
