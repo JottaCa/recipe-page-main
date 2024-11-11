@@ -122,7 +122,7 @@ body {
 .recipe tr {
     border-left-color: var(--cor-de-fundo-recipe);
     border-right-color: var(--cor-de-fundo-recipe);
-  }
+}
 
 .recipe tr:first-child {
     border-top-color: var(--cor-de-fundo-recipe);
