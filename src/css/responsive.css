@@ -1,7 +1,8 @@
 @media (max-width: 425px) {
     .recipe {
         margin: 0;
-        max-width: 375px;
+        max-width: 425px;
+        border-radius: 0;
     }
     
     .recipe .recipe-image {
@@ -26,10 +27,6 @@
     .recipe .recipe-content .preparation-time h3 {
         margin-bottom: 19px;
     }
-    
-    .recipe .recipe-content h2 {
-        margin-top: 13px;
-    }
 
     .recipe .recipe-content ul li {
         line-height: 21px;
@@ -43,6 +40,11 @@
         line-height: 25px;
     }
 
+    .recipe .recipe-content .ingredients {
+        margin-top: 15px;
+    }
+
+
     .recipe .table-nutrition {
         margin-top: 11px;
     }
@@ -52,5 +54,11 @@
         padding: 13px 0  13px 27px;
         width: 163px;
         font-weight: 400;
+    }
+}
+
+@media (max-width: 800px) {
+    .recipe {
+        margin: 0;
     }
 }
