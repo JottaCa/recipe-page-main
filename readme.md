@@ -22,8 +22,7 @@ Uma página de receitas que vai te ensinar a fazer uma omelete simples e saboros
 ### Captura de tela
 
 [<img src="./src/images/recipe-page.gif" alt="Gif de rolagem da página para Desktop">](https://jottaca.github.io/recipe-page-main/)
-[<img src="./src/images/recipe-page-mobile.png
-" alt="Gif de rolagem da página para esktop">](./screenshot.jpg)
+[<img src="./src/images/recipe-page-mobile.png" alt="Gif de rolagem da página para esktop">](https://jottaca.github.io/recipe-page-main/)
 
 
 ### Links
